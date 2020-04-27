@@ -1,3 +1,45 @@
-.title {
-  color: #02ccba;
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: #ffda79;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header-logo img {
+  float: left;
+  background-image: image(F11.png);
+  height: 70px;
+  margin: 14px 20px;
+}
+
+.header-list li {
+  list-style: none;
+  font-family: cursive;
+  float: left;
+  padding: 33px 40px;
+}
+
+.footer {
+  height: 400px;
+  width: 100%;
+  background-color: #ccae62;
+}
+
+.footer p {
+  float: center;
+  text-align: center;
+  color: #f7f1e3;
+  padding: 33px 50px;
+  font-family: cursive;
+}
+
+.footer img {
+  background-image: image(Logo Digitalent.png);
+  height: 100px;
+  margin: 0 530px;
 }
